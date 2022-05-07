@@ -1,0 +1,129 @@
+*{
+    font-family: Roboto, Arial, Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 100%;
+    height: 2300px;
+    /* background-color: #f0f0f0; */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    display: bolck;
+}
+#top{
+    display: block;
+    height: 200px;
+    /* background-color: beige; */
+    width: 64%;
+    margin-left: 18%;
+    margin-right: 18%;
+    /* background-color: #f0f0f0; */
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+#heading{
+    color: #444444;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.headingpar{
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.items{
+    display: flex;
+    height: 300px;
+    /* background-color: beige; */
+    width: 64%;
+    margin-left: 18%;
+    margin-right: 18%;
+    /* background-color: #f0f0f0; */
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#img{
+    height: 300px;
+    width: 45%;
+}
+#img>img{
+    height: 300px;
+    width: 100%;
+}
+
+.info{
+    height: 300px;
+    width: 55%;
+    padding: 10px;
+    
+}
+#para1{
+    font-size: 22px;
+    color: #444444;
+}
+#para1,#para2,#para3,#para4{
+    margin-left: 20px;
+}
+#para2,#para3{
+    font-size: 14px;
+}
+
+#para2{
+    margin-top: 5px;
+}
+#para3{
+    margin-top: 30px;
+}
+#para4{
+    display: flex;
+    margin-top: 50px;
+}
+
+#para4>.button{
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    margin-right: 200px;
+    margin-left: 20px;
+    background-color:#F53838;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 10px; 
+}
+
+/* pagination css */
+.pagination{
+    display: block;
+    height: 40px;
+    color: #000000;
+    background-color: #f8f8f8;
+    /* background-color: beige; */
+    width: 100%;
+    margin-left: 16%;
+    margin-right: 18%;
+    margin-top: 50px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+}
+.pagination a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+
+}
+.pagination a.active{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.pagination a:hover:not(.active){
+    background-color: #ddd;
+}
+/* pagination style over */
