@@ -1,13 +1,10 @@
 # clone of kindmeal.my
 
-<h1> Unit-2 Project</h1>
-
-<h2>Individual Project</h2>
-<br/>
+<h2> Unit-2 Project (Individual)</h2>
 
 Kajol [Github profile](https://github.com/Kajol1106)
 
-<h2> Live Site : </h2>
+<h2> Live Site : https://cosmic-alfajores-acdbeb.netlify.app/</h2>
 
 
 ### Some of the glimpses of my work
